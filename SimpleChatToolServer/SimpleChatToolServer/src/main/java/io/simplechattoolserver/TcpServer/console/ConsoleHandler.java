@@ -7,13 +7,13 @@ import org.slf4j.LoggerFactory;
 public class ConsoleHandler {
     private static final Logger logger = LoggerFactory.getLogger(ConsoleHandler.class);
 
-    // ✅ 统一换行格式，确保不同终端兼容
+    //  统一换行格式，确保不同终端兼容
     private void sendMessage(Channel channel, String message) {
         channel.writeAndFlush(message + "\r\n");
     }
 
     public void printCommandInputPrompt(Channel channel) {
-        sendMessage(channel, "\r[服务器] 请输入指令："); // ✅ \r 确保光标回到行首
+        sendMessage(channel, "\r[服务器] 请输入指令："); // \r 确保光标回到行首
     }
 
     public void printSystemMessage(Channel channel, String message) {

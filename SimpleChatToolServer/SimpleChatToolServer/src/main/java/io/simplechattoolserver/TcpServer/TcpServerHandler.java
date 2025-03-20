@@ -20,44 +20,44 @@ public class TcpServerHandler extends SimpleChannelInboundHandler<String> {
     private static final Map<String, Channel> userChannels = new ConcurrentHashMap<>();
 
     private final CommandProcessor commandProcessor = new CommandProcessor(clients, userChannels);
-    private final ConsoleHandler consoleHandler = new ConsoleHandler(); // ✅ 新增 ConsoleHandler
+    private final ConsoleHandler consoleHandler = new ConsoleHandler(); //   新增 ConsoleHandler
 
     @Override
     public void handlerAdded(ChannelHandlerContext ctx) {
         Channel incoming = ctx.channel();
         clients.add(incoming);
-        consoleHandler.logClientConnection(incoming, true); // ✅ 记录日志
+        consoleHandler.logClientConnection(incoming, true); //   记录日志
     }
 
     @Override
     public void handlerRemoved(ChannelHandlerContext ctx) {
         Channel incoming = ctx.channel();
 
-        // ✅ 修正：移除 `userChannels` 中的对应用户
+        //   修正：移除 `userChannels` 中的对应用户
         userChannels.entrySet().removeIf(entry -> entry.getValue().equals(incoming));
 
         clients.remove(incoming);
-        consoleHandler.logClientConnection(incoming, false); // ✅ 记录日志
+        consoleHandler.logClientConnection(incoming, false); //   记录日志
     }
 
-    // ✅ 解析客户端输入的消息
+    //   解析客户端输入的消息
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, String msg) {
         Channel incoming = ctx.channel();
         msg = msg.trim(); // 避免不必要的空格
         msg = new String(msg.getBytes(CharsetUtil.ISO_8859_1), CharsetUtil.UTF_8).trim();
 
-        consoleHandler.logClientMessage(incoming, msg); // ✅ 记录日志
+        consoleHandler.logClientMessage(incoming, msg); //   记录日志
 
-        // ✅ 如果输入为空或者仅是空格，不处理指令，直接打印提示符
+        //   如果输入为空或者仅是空格，不处理指令，直接打印提示符
         if (msg.isEmpty()) {
-            consoleHandler.printCommandInputPrompt(incoming); // ✅ 循环打印输入提示符
+            consoleHandler.printCommandInputPrompt(incoming); //   循环打印输入提示符
             return;
         }
 
         if (!userChannels.containsValue(incoming)) {
             String username = msg.trim();
-            // ✅ 确保用户名不重复
+            //   确保用户名不重复
             if (userChannels.containsKey(username)) {
                 consoleHandler.printError(incoming, "用户名已存在，请重新输入：");
             } else {
@@ -70,7 +70,7 @@ public class TcpServerHandler extends SimpleChannelInboundHandler<String> {
 
         String response = commandProcessor.processCommand(incoming, msg);
         if (response != null) {
-            consoleHandler.printResponse(incoming, response); // ✅ 统一使用 ConsoleHandler 输出
+            consoleHandler.printResponse(incoming, response); //   统一使用 ConsoleHandler 输出
         }
     }
 
@@ -92,7 +92,7 @@ public class TcpServerHandler extends SimpleChannelInboundHandler<String> {
         ctx.close();
     }
 
-    // ✅ 让用户登录时提供用户名
+    //   让用户登录时提供用户名
     @Override
     public void channelActive(ChannelHandlerContext ctx) {
         Channel incoming = ctx.channel();
