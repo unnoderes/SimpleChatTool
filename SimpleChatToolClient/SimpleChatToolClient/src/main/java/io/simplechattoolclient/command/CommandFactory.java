@@ -11,7 +11,7 @@ public class CommandFactory {
         registerCommands(channel);
     }
 
-    // ✅ 统一管理所有指令
+    //  统一管理所有指令
     private void registerCommands(Channel channel) {
         handlers.put("exit", new ExitCommandHandler(channel));
         handlers.put("list", new ListCommandHandler(channel));
