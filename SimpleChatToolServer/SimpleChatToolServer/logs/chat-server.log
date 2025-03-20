@@ -1,0 +1,271 @@
+2025-03-19 18:50:14 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [io.simplechattoolserver.SimpleChatToolServerApplicationTests], using SpringBootContextLoader
+2025-03-19 18:50:14 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [io.simplechattoolserver.SimpleChatToolServerApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2025-03-19 18:50:14 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [io.simplechattoolserver.SimpleChatToolServerApplicationTests]: SimpleChatToolServerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-03-19 18:50:14 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration io.simplechattoolserver.SimpleChatToolServerApplication for test class io.simplechattoolserver.SimpleChatToolServerApplicationTests
+2025-03-19 18:50:14 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2025-03-19 18:50:14 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1c39680d, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@62833051, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1c852c0f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@a37aefe, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5d99c6b5, org.springframework.test.context.event.EventPublishingTestExecutionListener@266374ef, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@13b3d178, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@24c4ddae, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@37fb0bed, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@a82c5f1, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7b7fdc8, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@51c693d]
+2025-03-19 18:50:14 [main] INFO  i.s.SimpleChatToolServerApplicationTests - Starting SimpleChatToolServerApplicationTests using Java 1.8.0_271 on WIN-20240913ICL with PID 7688 (started by Administrator in C:\Users\Administrator\Desktop\documents\SimpleChatToolServer\SimpleChatToolServer)
+2025-03-19 18:50:14 [main] INFO  i.s.SimpleChatToolServerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 18:50:15 [main] INFO  i.s.SimpleChatToolServerApplicationTests - Started SimpleChatToolServerApplicationTests in 0.644 seconds (JVM running for 1.432)
+2025-03-19 18:56:37 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [io.simplechattoolserver.SimpleChatToolServerApplicationTests], using SpringBootContextLoader
+2025-03-19 18:56:37 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [io.simplechattoolserver.SimpleChatToolServerApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2025-03-19 18:56:37 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [io.simplechattoolserver.SimpleChatToolServerApplicationTests]: SimpleChatToolServerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-03-19 18:56:37 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration io.simplechattoolserver.SimpleChatToolServerApplication for test class io.simplechattoolserver.SimpleChatToolServerApplicationTests
+2025-03-19 18:56:37 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2025-03-19 18:56:37 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2bdd8394, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5f9edf14, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@68746f22, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2f01783a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@68878f6d, org.springframework.test.context.event.EventPublishingTestExecutionListener@41488b16, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@a8ef162, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2eea88a1, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7ac296f6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7fd7a283, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@22f59fa, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@78fa769e]
+2025-03-19 18:56:37 [main] INFO  i.s.SimpleChatToolServerApplicationTests - Starting SimpleChatToolServerApplicationTests using Java 1.8.0_271 on WIN-20240913ICL with PID 3000 (started by Administrator in C:\Users\Administrator\Desktop\documents\SimpleChatToolServer\SimpleChatToolServer)
+2025-03-19 18:56:37 [main] INFO  i.s.SimpleChatToolServerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 18:56:38 [main] INFO  i.s.SimpleChatToolServerApplicationTests - Started SimpleChatToolServerApplicationTests in 0.994 seconds (JVM running for 1.79)
+2025-03-19 20:39:34 [main] INFO  i.s.SimpleChatToolServerApplication - Starting SimpleChatToolServerApplication using Java 1.8.0_271 on WIN-20240913ICL with PID 15908 (C:\Users\Administrator\Desktop\documents\SimpleChatToolServer\SimpleChatToolServer\target\classes started by Administrator in C:\Users\Administrator\Desktop\documents\SimpleChatToolServer\SimpleChatToolServer)
+2025-03-19 20:39:34 [main] INFO  i.s.SimpleChatToolServerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 20:39:35 [main] INFO  i.s.SimpleChatToolServerApplication - Started SimpleChatToolServerApplication in 1.187 seconds (JVM running for 2.29)
+2025-03-19 20:39:41 [nioEventLoopGroup-4-1] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端连接：/127.0.0.1:26981
+2025-03-19 20:39:51 [nioEventLoopGroup-4-1] ERROR i.s.TcpServer.TcpServerHandler - 客户端 [/127.0.0.1:26981] 发生异常
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.buffer.WrappedByteBuf.writeBytes(WrappedByteBuf.java:821)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2025-03-19 20:39:51 [nioEventLoopGroup-4-1] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端断开连接：/127.0.0.1:26981
+2025-03-19 20:41:35 [main] INFO  i.s.SimpleChatToolServerApplication - Starting SimpleChatToolServerApplication using Java 1.8.0_271 on WIN-20240913ICL with PID 11968 (C:\Users\Administrator\Desktop\documents\SimpleChatToolServer\SimpleChatToolServer\target\classes started by Administrator in C:\Users\Administrator\Desktop\documents\SimpleChatToolServer\SimpleChatToolServer)
+2025-03-19 20:41:35 [main] INFO  i.s.SimpleChatToolServerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 20:41:36 [main] INFO  i.s.SimpleChatToolServerApplication - Started SimpleChatToolServerApplication in 0.725 seconds (JVM running for 1.46)
+2025-03-19 20:41:42 [nioEventLoopGroup-4-1] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端连接：/127.0.0.1:27221
+2025-03-19 20:41:48 [nioEventLoopGroup-4-1] WARN  i.s.TcpServer.TcpServerHandler - 客户端 [/127.0.0.1:27221] 非正常断开连接
+2025-03-19 20:41:48 [nioEventLoopGroup-4-1] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端断开连接：/127.0.0.1:27221
+2025-03-19 20:45:03 [main] INFO  i.s.SimpleChatToolServerApplication - Starting SimpleChatToolServerApplication using Java 1.8.0_271 on WIN-20240913ICL with PID 5908 (C:\Users\Administrator\Desktop\documents\SimpleChatToolServer\SimpleChatToolServer\target\classes started by Administrator in C:\Users\Administrator\Desktop\documents\SimpleChatToolServer\SimpleChatToolServer)
+2025-03-19 20:45:03 [main] INFO  i.s.SimpleChatToolServerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 20:45:04 [main] INFO  i.s.SimpleChatToolServerApplication - Started SimpleChatToolServerApplication in 0.803 seconds (JVM running for 1.596)
+2025-03-19 20:47:07 [nioEventLoopGroup-4-1] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端连接：/127.0.0.1:27521
+2025-03-19 20:47:11 [nioEventLoopGroup-4-1] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:27521] 消息：user
+2025-03-19 20:47:11 [nioEventLoopGroup-4-1] INFO  i.s.TcpServer.TcpServerHandler - 用户 [user] 登录，地址：/127.0.0.1:27521
+2025-03-19 20:47:13 [nioEventLoopGroup-4-1] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:27521] 消息：list
+2025-03-19 20:47:14 [nioEventLoopGroup-4-1] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:27521] 消息：clear
+2025-03-19 20:47:17 [nioEventLoopGroup-4-1] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:27521] 消息：list
+2025-03-19 20:47:18 [nioEventLoopGroup-4-1] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:27521] 消息：users
+2025-03-19 20:47:28 [nioEventLoopGroup-4-1] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:27521] 消息：status
+2025-03-19 20:47:48 [nioEventLoopGroup-4-1] WARN  i.s.TcpServer.TcpServerHandler - 客户端 [/127.0.0.1:27521] 非正常断开连接
+2025-03-19 20:47:48 [nioEventLoopGroup-4-1] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端断开连接：/127.0.0.1:27521
+2025-03-19 20:50:10 [nioEventLoopGroup-4-2] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端连接：/127.0.0.1:27656
+2025-03-19 20:50:18 [nioEventLoopGroup-4-2] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:27656] 消息：exit
+2025-03-19 20:50:18 [nioEventLoopGroup-4-2] INFO  i.s.TcpServer.TcpServerHandler - 用户 [exit] 登录，地址：/127.0.0.1:27656
+2025-03-19 20:50:18 [nioEventLoopGroup-4-2] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端断开连接：/127.0.0.1:27656
+2025-03-19 20:53:44 [nioEventLoopGroup-4-3] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端连接：/127.0.0.1:27805
+2025-03-19 20:53:49 [nioEventLoopGroup-4-3] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:27805] 消息：user
+2025-03-19 20:53:49 [nioEventLoopGroup-4-3] INFO  i.s.TcpServer.TcpServerHandler - 用户 [user] 登录，地址：/127.0.0.1:27805
+2025-03-19 20:54:01 [nioEventLoopGroup-4-3] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:27805] 消息：time
+2025-03-19 20:54:03 [nioEventLoopGroup-4-3] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:27805] 消息：clear
+2025-03-19 20:54:05 [nioEventLoopGroup-4-3] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:27805] 消息：clear
+2025-03-19 20:54:06 [nioEventLoopGroup-4-3] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:27805] 消息：exit
+2025-03-19 20:54:06 [nioEventLoopGroup-4-3] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端断开连接：/127.0.0.1:27805
+2025-03-19 20:54:38 [nioEventLoopGroup-4-4] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端连接：/127.0.0.1:27862
+2025-03-19 20:56:36 [nioEventLoopGroup-4-4] WARN  i.s.TcpServer.TcpServerHandler - 客户端 [/127.0.0.1:27862] 非正常断开连接
+2025-03-19 20:56:36 [nioEventLoopGroup-4-4] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端断开连接：/127.0.0.1:27862
+2025-03-19 20:57:02 [nioEventLoopGroup-4-5] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端连接：/127.0.0.1:28035
+2025-03-19 20:57:06 [nioEventLoopGroup-4-5] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:28035] 消息：clear
+2025-03-19 20:57:06 [nioEventLoopGroup-4-5] INFO  i.s.TcpServer.TcpServerHandler - 用户 [clear] 登录，地址：/127.0.0.1:28035
+2025-03-19 20:57:08 [nioEventLoopGroup-4-5] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:28035] 消息：clear
+2025-03-19 20:57:10 [nioEventLoopGroup-4-5] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:28035] 消息：clear
+2025-03-19 20:57:14 [nioEventLoopGroup-4-5] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:28035] 消息：clear
+2025-03-19 20:58:41 [nioEventLoopGroup-4-5] WARN  i.s.TcpServer.TcpServerHandler - 客户端 [/127.0.0.1:28035] 非正常断开连接
+2025-03-19 20:58:41 [nioEventLoopGroup-4-5] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端断开连接：/127.0.0.1:28035
+2025-03-19 21:00:15 [nioEventLoopGroup-4-6] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端连接：/127.0.0.1:28187
+2025-03-19 21:00:26 [nioEventLoopGroup-4-6] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:28187] 消息：clear
+2025-03-19 21:00:26 [nioEventLoopGroup-4-6] INFO  i.s.TcpServer.TcpServerHandler - 用户 [clear] 登录，地址：/127.0.0.1:28187
+2025-03-19 21:00:29 [nioEventLoopGroup-4-6] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:28187] 消息：clear
+2025-03-19 21:00:32 [nioEventLoopGroup-4-6] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:28187] 消息：clear
+2025-03-19 21:00:37 [nioEventLoopGroup-4-6] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:28187] 消息：ls
+2025-03-19 21:00:39 [nioEventLoopGroup-4-6] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:28187] 消息：clear
+2025-03-19 21:00:43 [nioEventLoopGroup-4-6] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:28187] 消息：help
+2025-03-19 21:00:46 [nioEventLoopGroup-4-6] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:28187] 消息：help
+2025-03-19 21:01:02 [nioEventLoopGroup-4-6] WARN  i.s.TcpServer.TcpServerHandler - 客户端 [/127.0.0.1:28187] 非正常断开连接
+2025-03-19 21:01:02 [nioEventLoopGroup-4-6] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端断开连接：/127.0.0.1:28187
+2025-03-19 21:01:06 [nioEventLoopGroup-4-7] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端连接：/127.0.0.1:28253
+2025-03-19 21:01:09 [nioEventLoopGroup-4-7] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:28253] 消息：111
+2025-03-19 21:01:09 [nioEventLoopGroup-4-7] INFO  i.s.TcpServer.TcpServerHandler - 用户 [111] 登录，地址：/127.0.0.1:28253
+2025-03-19 21:01:11 [nioEventLoopGroup-4-7] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:28253] 消息：help
+2025-03-19 21:29:38 [nioEventLoopGroup-4-7] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:28253] 消息：list
+2025-03-19 21:29:40 [nioEventLoopGroup-4-7] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:28253] 消息：clear
+2025-03-19 21:32:23 [nioEventLoopGroup-4-7] WARN  i.s.TcpServer.TcpServerHandler - 客户端 [/127.0.0.1:28253] 非正常断开连接
+2025-03-19 21:32:23 [nioEventLoopGroup-4-7] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端断开连接：/127.0.0.1:28253
+2025-03-19 21:35:45 [nioEventLoopGroup-4-8] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端连接：/127.0.0.1:29633
+2025-03-19 21:35:51 [nioEventLoopGroup-4-8] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:29633] 消息：user
+2025-03-19 21:35:51 [nioEventLoopGroup-4-8] INFO  i.s.TcpServer.TcpServerHandler - 用户 [user] 登录，地址：/127.0.0.1:29633
+2025-03-19 21:35:54 [nioEventLoopGroup-4-8] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:29633] 消息：ls
+2025-03-19 21:35:56 [nioEventLoopGroup-4-8] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:29633] 消息：clear
+2025-03-19 21:35:59 [nioEventLoopGroup-4-8] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:29633] 消息：ls
+2025-03-19 21:36:02 [nioEventLoopGroup-4-8] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:29633] 消息：list
+2025-03-19 21:36:52 [nioEventLoopGroup-4-8] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:29633] 消息：help
+2025-03-19 21:36:56 [nioEventLoopGroup-4-8] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:29633] 消息：clear
+2025-03-19 21:36:59 [nioEventLoopGroup-4-8] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:29633] 消息：exit
+2025-03-19 21:36:59 [nioEventLoopGroup-4-8] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端断开连接：/127.0.0.1:29633
+2025-03-19 21:37:29 [nioEventLoopGroup-4-9] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端连接：/127.0.0.1:29732
+2025-03-19 21:37:36 [nioEventLoopGroup-4-9] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:29732] 消息：user
+2025-03-19 21:37:36 [nioEventLoopGroup-4-9] INFO  i.s.TcpServer.TcpServerHandler - 用户 [user] 登录，地址：/127.0.0.1:29732
+2025-03-19 21:38:06 [nioEventLoopGroup-4-9] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:29732] 消息：list
+2025-03-19 21:38:09 [nioEventLoopGroup-4-9] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:29732] 消息：users
+2025-03-19 21:38:13 [nioEventLoopGroup-4-9] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:29732] 消息：clear
+2025-03-19 21:41:42 [nioEventLoopGroup-4-9] WARN  i.s.TcpServer.TcpServerHandler - 客户端 [/127.0.0.1:29732] 非正常断开连接
+2025-03-19 21:41:42 [nioEventLoopGroup-4-9] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端断开连接：/127.0.0.1:29732
+2025-03-19 21:42:39 [nioEventLoopGroup-4-10] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端连接：/127.0.0.1:29956
+2025-03-19 21:42:41 [nioEventLoopGroup-4-10] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:29956] 消息：user
+2025-03-19 21:42:41 [nioEventLoopGroup-4-10] INFO  i.s.TcpServer.TcpServerHandler - 用户 [user] 登录，地址：/127.0.0.1:29956
+2025-03-19 21:42:44 [nioEventLoopGroup-4-10] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:29956] 消息：list
+2025-03-19 21:42:47 [nioEventLoopGroup-4-10] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:29956] 消息：clear
+2025-03-19 21:42:49 [nioEventLoopGroup-4-10] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:29956] 消息：clear
+2025-03-19 21:42:53 [nioEventLoopGroup-4-10] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:29956] 消息：users
+2025-03-19 21:42:55 [nioEventLoopGroup-4-10] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:29956] 消息：111
+2025-03-19 21:43:51 [nioEventLoopGroup-4-10] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:29956] 消息：clear
+2025-03-19 21:46:43 [nioEventLoopGroup-4-10] WARN  i.s.TcpServer.TcpServerHandler - 客户端 [/127.0.0.1:29956] 非正常断开连接
+2025-03-19 21:46:43 [nioEventLoopGroup-4-10] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端断开连接：/127.0.0.1:29956
+2025-03-19 21:48:05 [nioEventLoopGroup-4-11] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端连接：/127.0.0.1:30388
+2025-03-19 21:48:11 [nioEventLoopGroup-4-11] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:30388] 消息：user
+2025-03-19 21:48:11 [nioEventLoopGroup-4-11] INFO  i.s.TcpServer.TcpServerHandler - 用户 [user] 登录，地址：/127.0.0.1:30388
+2025-03-19 21:49:16 [nioEventLoopGroup-4-11] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:30388] 消息：list
+2025-03-19 21:49:23 [nioEventLoopGroup-4-11] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:30388] 消息：users
+2025-03-19 21:49:25 [nioEventLoopGroup-4-11] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:30388] 消息：clear
+2025-03-19 21:49:28 [nioEventLoopGroup-4-11] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:30388] 消息：help
+2025-03-19 21:49:30 [nioEventLoopGroup-4-11] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:30388] 消息：time
+2025-03-19 21:49:31 [nioEventLoopGroup-4-11] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:30388] 消息：echo 111
+2025-03-19 21:49:34 [nioEventLoopGroup-4-11] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:30388] 消息：echo 111
+2025-03-19 21:49:36 [nioEventLoopGroup-4-11] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:30388] 消息：help
+2025-03-19 21:49:46 [nioEventLoopGroup-4-11] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:30388] 消息：broadcast 111
+2025-03-19 21:50:59 [nioEventLoopGroup-4-11] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:30388] 消息：exit
+2025-03-19 21:50:59 [nioEventLoopGroup-4-11] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端断开连接：/127.0.0.1:30388
+2025-03-19 21:52:08 [nioEventLoopGroup-4-12] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端连接：/127.0.0.1:30549
+2025-03-19 21:52:10 [nioEventLoopGroup-4-12] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:30549] 消息：user1
+2025-03-19 21:52:10 [nioEventLoopGroup-4-12] INFO  i.s.TcpServer.TcpServerHandler - 用户 [user1] 登录，地址：/127.0.0.1:30549
+2025-03-19 21:52:12 [nioEventLoopGroup-4-12] WARN  i.s.TcpServer.TcpServerHandler - 客户端 [/127.0.0.1:30549] 非正常断开连接
+2025-03-19 21:52:12 [nioEventLoopGroup-4-12] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端断开连接：/127.0.0.1:30549
+2025-03-19 21:52:16 [nioEventLoopGroup-4-13] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端连接：/127.0.0.1:30595
+2025-03-19 21:52:18 [nioEventLoopGroup-4-13] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:30595] 消息：user1
+2025-03-19 21:52:18 [nioEventLoopGroup-4-13] INFO  i.s.TcpServer.TcpServerHandler - 用户 [user1] 登录，地址：/127.0.0.1:30595
+2025-03-19 21:52:25 [nioEventLoopGroup-4-14] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端连接：/127.0.0.1:30647
+2025-03-19 21:52:27 [nioEventLoopGroup-4-14] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:30647] 消息：user2
+2025-03-19 21:52:27 [nioEventLoopGroup-4-14] INFO  i.s.TcpServer.TcpServerHandler - 用户 [user2] 登录，地址：/127.0.0.1:30647
+2025-03-19 21:52:29 [nioEventLoopGroup-4-15] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端连接：/127.0.0.1:30687
+2025-03-19 21:52:30 [nioEventLoopGroup-4-15] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:30687] 消息：user3
+2025-03-19 21:52:30 [nioEventLoopGroup-4-15] INFO  i.s.TcpServer.TcpServerHandler - 用户 [user3] 登录，地址：/127.0.0.1:30687
+2025-03-19 21:52:43 [nioEventLoopGroup-4-13] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:30595] 消息：private user2 hello
+2025-03-19 21:52:59 [nioEventLoopGroup-4-13] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:30595] 消息：private
+2025-03-19 21:54:17 [nioEventLoopGroup-4-15] WARN  i.s.TcpServer.TcpServerHandler - 客户端 [/127.0.0.1:30687] 非正常断开连接
+2025-03-19 21:54:17 [nioEventLoopGroup-4-14] WARN  i.s.TcpServer.TcpServerHandler - 客户端 [/127.0.0.1:30647] 非正常断开连接
+2025-03-19 21:54:17 [nioEventLoopGroup-4-14] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端断开连接：/127.0.0.1:30647
+2025-03-19 21:54:17 [nioEventLoopGroup-4-15] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端断开连接：/127.0.0.1:30687
+2025-03-19 21:54:17 [nioEventLoopGroup-4-13] WARN  i.s.TcpServer.TcpServerHandler - 客户端 [/127.0.0.1:30595] 非正常断开连接
+2025-03-19 21:54:17 [nioEventLoopGroup-4-13] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端断开连接：/127.0.0.1:30595
+2025-03-19 22:06:56 [nioEventLoopGroup-4-16] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端连接：/127.0.0.1:31257
+2025-03-19 22:07:13 [nioEventLoopGroup-4-16] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:31257] 消息：exit
+2025-03-19 22:07:13 [nioEventLoopGroup-4-16] INFO  i.s.TcpServer.TcpServerHandler - 用户 [exit] 登录，地址：/127.0.0.1:31257
+2025-03-19 22:07:13 [nioEventLoopGroup-4-16] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端断开连接：/127.0.0.1:31257
+2025-03-19 22:07:19 [nioEventLoopGroup-4-1] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端连接：/127.0.0.1:31319
+2025-03-19 22:08:00 [nioEventLoopGroup-4-1] WARN  i.s.TcpServer.TcpServerHandler - 客户端 [/127.0.0.1:31319] 非正常断开连接
+2025-03-19 22:08:00 [nioEventLoopGroup-4-1] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端断开连接：/127.0.0.1:31319
+2025-03-19 22:08:14 [nioEventLoopGroup-4-2] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端连接：/127.0.0.1:31398
+2025-03-19 22:09:09 [nioEventLoopGroup-4-2] WARN  i.s.TcpServer.TcpServerHandler - 客户端 [/127.0.0.1:31398] 非正常断开连接
+2025-03-19 22:09:09 [nioEventLoopGroup-4-2] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端断开连接：/127.0.0.1:31398
+2025-03-19 22:09:13 [nioEventLoopGroup-4-3] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端连接：/127.0.0.1:31473
+2025-03-19 22:09:21 [nioEventLoopGroup-4-3] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:31473] 消息：exit
+2025-03-19 22:09:21 [nioEventLoopGroup-4-3] INFO  i.s.TcpServer.TcpServerHandler - 用户 [exit] 登录，地址：/127.0.0.1:31473
+2025-03-19 22:09:21 [nioEventLoopGroup-4-3] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端断开连接：/127.0.0.1:31473
+2025-03-19 22:11:15 [nioEventLoopGroup-4-4] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端连接：/127.0.0.1:31577
+2025-03-19 22:11:46 [nioEventLoopGroup-4-4] WARN  i.s.TcpServer.TcpServerHandler - 客户端 [/127.0.0.1:31577] 非正常断开连接
+2025-03-19 22:11:46 [nioEventLoopGroup-4-4] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端断开连接：/127.0.0.1:31577
+2025-03-19 22:12:03 [nioEventLoopGroup-4-5] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端连接：/127.0.0.1:31636
+2025-03-19 22:12:22 [nioEventLoopGroup-4-5] WARN  i.s.TcpServer.TcpServerHandler - 客户端 [/127.0.0.1:31636] 非正常断开连接
+2025-03-19 22:12:22 [nioEventLoopGroup-4-5] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端断开连接：/127.0.0.1:31636
+2025-03-19 22:12:36 [nioEventLoopGroup-4-6] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端连接：/127.0.0.1:31732
+2025-03-19 22:12:45 [nioEventLoopGroup-4-6] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:31732] 消息：list
+2025-03-19 22:12:45 [nioEventLoopGroup-4-6] INFO  i.s.TcpServer.TcpServerHandler - 用户 [list] 登录，地址：/127.0.0.1:31732
+2025-03-19 22:13:59 [nioEventLoopGroup-4-6] WARN  i.s.TcpServer.TcpServerHandler - 客户端 [/127.0.0.1:31732] 非正常断开连接
+2025-03-19 22:13:59 [nioEventLoopGroup-4-6] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端断开连接：/127.0.0.1:31732
+2025-03-19 22:23:56 [nioEventLoopGroup-4-7] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端连接：/127.0.0.1:32350
+2025-03-19 22:25:49 [nioEventLoopGroup-4-7] WARN  i.s.TcpServer.TcpServerHandler - 客户端 [/127.0.0.1:32350] 非正常断开连接
+2025-03-19 22:25:49 [nioEventLoopGroup-4-7] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端断开连接：/127.0.0.1:32350
+2025-03-19 22:26:36 [nioEventLoopGroup-4-8] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端连接：/127.0.0.1:32521
+2025-03-19 22:26:45 [nioEventLoopGroup-4-8] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:32521] 消息：user
+2025-03-19 22:26:45 [nioEventLoopGroup-4-8] INFO  i.s.TcpServer.TcpServerHandler - 用户 [user] 登录，地址：/127.0.0.1:32521
+2025-03-19 22:26:48 [nioEventLoopGroup-4-8] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:32521] 消息：exit
+2025-03-19 22:26:48 [nioEventLoopGroup-4-8] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端断开连接：/127.0.0.1:32521
+2025-03-19 22:28:52 [nioEventLoopGroup-4-9] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端连接：/127.0.0.1:32627
+2025-03-19 22:28:54 [nioEventLoopGroup-4-9] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:32627] 消息：user
+2025-03-19 22:28:54 [nioEventLoopGroup-4-9] INFO  i.s.TcpServer.TcpServerHandler - 用户 [user] 登录，地址：/127.0.0.1:32627
+2025-03-19 22:28:57 [nioEventLoopGroup-4-9] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:32627] 消息：list
+2025-03-19 22:28:58 [nioEventLoopGroup-4-9] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:32627] 消息：users
+2025-03-19 22:29:01 [nioEventLoopGroup-4-9] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:32627] 消息：exit
+2025-03-19 22:29:01 [nioEventLoopGroup-4-9] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端断开连接：/127.0.0.1:32627
+2025-03-19 22:38:36 [nioEventLoopGroup-4-10] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端连接：/127.0.0.1:33058
+2025-03-19 22:38:39 [nioEventLoopGroup-4-10] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:33058] 消息：user
+2025-03-19 22:38:39 [nioEventLoopGroup-4-10] INFO  i.s.TcpServer.TcpServerHandler - 用户 [user] 登录，地址：/127.0.0.1:33058
+2025-03-19 22:38:40 [nioEventLoopGroup-4-10] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:33058] 消息：ls
+2025-03-19 22:38:42 [nioEventLoopGroup-4-10] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:33058] 消息：list
+2025-03-19 22:38:45 [nioEventLoopGroup-4-10] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:33058] 消息：users
+2025-03-19 22:38:47 [nioEventLoopGroup-4-10] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:33058] 消息：echo 111
+2025-03-19 22:38:52 [nioEventLoopGroup-4-10] WARN  i.s.TcpServer.TcpServerHandler - 客户端 [/127.0.0.1:33058] 非正常断开连接
+2025-03-19 22:38:52 [nioEventLoopGroup-4-10] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端断开连接：/127.0.0.1:33058
+2025-03-19 22:39:01 [nioEventLoopGroup-4-11] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端连接：/127.0.0.1:33118
+2025-03-19 22:39:03 [nioEventLoopGroup-4-11] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:33118] 消息：user1
+2025-03-19 22:39:03 [nioEventLoopGroup-4-11] INFO  i.s.TcpServer.TcpServerHandler - 用户 [user1] 登录，地址：/127.0.0.1:33118
+2025-03-19 22:39:05 [nioEventLoopGroup-4-11] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:33118] 消息：ls
+2025-03-19 22:39:07 [nioEventLoopGroup-4-11] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:33118] 消息：exit
+2025-03-19 22:39:07 [nioEventLoopGroup-4-11] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端断开连接：/127.0.0.1:33118
+2025-03-19 22:40:36 [nioEventLoopGroup-4-12] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端连接：/127.0.0.1:33218
+2025-03-19 22:40:38 [nioEventLoopGroup-4-12] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:33218] 消息：user1
+2025-03-19 22:40:38 [nioEventLoopGroup-4-12] INFO  i.s.TcpServer.TcpServerHandler - 用户 [user1] 登录，地址：/127.0.0.1:33218
+2025-03-19 22:40:40 [nioEventLoopGroup-4-12] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:33218] 消息：ls
+2025-03-19 22:40:41 [nioEventLoopGroup-4-12] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:33218] 消息：exit
+2025-03-19 22:40:41 [nioEventLoopGroup-4-12] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端断开连接：/127.0.0.1:33218
+2025-03-19 22:45:12 [nioEventLoopGroup-4-13] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端连接：/127.0.0.1:33454
+2025-03-19 22:45:14 [nioEventLoopGroup-4-13] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:33454] 消息：user
+2025-03-19 22:45:14 [nioEventLoopGroup-4-13] INFO  i.s.TcpServer.TcpServerHandler - 用户 [user] 登录，地址：/127.0.0.1:33454
+2025-03-19 22:45:17 [nioEventLoopGroup-4-13] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:33454] 消息：list
+2025-03-19 22:45:18 [nioEventLoopGroup-4-13] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:33454] 消息：users
+2025-03-19 22:45:19 [nioEventLoopGroup-4-13] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:33454] 消息：list
+2025-03-19 22:45:21 [nioEventLoopGroup-4-13] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:33454] 消息：status
+2025-03-19 22:45:53 [nioEventLoopGroup-4-13] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:33454] 消息：help
+2025-03-19 22:45:54 [nioEventLoopGroup-4-13] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:33454] 消息：exit
+2025-03-19 22:45:54 [nioEventLoopGroup-4-13] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端断开连接：/127.0.0.1:33454
+2025-03-19 22:47:31 [nioEventLoopGroup-4-14] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端连接：/127.0.0.1:33599
+2025-03-19 22:47:37 [nioEventLoopGroup-4-14] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:33599] 消息：user
+2025-03-19 22:47:37 [nioEventLoopGroup-4-14] INFO  i.s.TcpServer.TcpServerHandler - 用户 [user] 登录，地址：/127.0.0.1:33599
+2025-03-19 22:47:39 [nioEventLoopGroup-4-14] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:33599] 消息：ls
+2025-03-19 22:48:03 [nioEventLoopGroup-4-14] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:33599] 消息：list
+2025-03-19 22:48:06 [nioEventLoopGroup-4-14] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:33599] 消息：help
+2025-03-19 22:49:07 [nioEventLoopGroup-4-14] WARN  i.s.TcpServer.TcpServerHandler - 客户端 [/127.0.0.1:33599] 非正常断开连接
+2025-03-19 22:49:07 [nioEventLoopGroup-4-14] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端断开连接：/127.0.0.1:33599
+2025-03-19 22:50:20 [nioEventLoopGroup-4-15] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端连接：/127.0.0.1:33770
+2025-03-19 22:50:22 [nioEventLoopGroup-4-15] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:33770] 消息：user
+2025-03-19 22:50:22 [nioEventLoopGroup-4-15] INFO  i.s.TcpServer.TcpServerHandler - 用户 [user] 登录，地址：/127.0.0.1:33770
+2025-03-19 22:50:24 [nioEventLoopGroup-4-15] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:33770] 消息：ls
+2025-03-19 22:50:29 [nioEventLoopGroup-4-15] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:33770] 消息：echo 11
+2025-03-19 22:50:31 [nioEventLoopGroup-4-15] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:33770] 消息：echo 111
+2025-03-19 22:50:33 [nioEventLoopGroup-4-15] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:33770] 消息：hello world
+2025-03-19 22:50:40 [nioEventLoopGroup-4-15] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:33770] 消息：hello
+2025-03-19 22:50:43 [nioEventLoopGroup-4-15] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:33770] 消息：echo hello
+2025-03-19 22:50:46 [nioEventLoopGroup-4-15] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:33770] 消息：status
+2025-03-19 22:50:47 [nioEventLoopGroup-4-15] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:33770] 消息：list
+2025-03-19 22:50:49 [nioEventLoopGroup-4-15] INFO  i.s.TcpServer.console.ConsoleHandler - 收到客户端 [/127.0.0.1:33770] 消息：exit
+2025-03-19 22:50:49 [nioEventLoopGroup-4-15] INFO  i.s.TcpServer.console.ConsoleHandler - 客户端断开连接：/127.0.0.1:33770
+2025-03-19 22:58:34 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [io.simplechattoolserver.SimpleChatToolServerApplicationTests], using SpringBootContextLoader
+2025-03-19 22:58:34 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [io.simplechattoolserver.SimpleChatToolServerApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2025-03-19 22:58:34 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [io.simplechattoolserver.SimpleChatToolServerApplicationTests]: SimpleChatToolServerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-03-19 22:58:34 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration io.simplechattoolserver.SimpleChatToolServerApplication for test class io.simplechattoolserver.SimpleChatToolServerApplicationTests
+2025-03-19 22:58:34 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2025-03-19 22:58:34 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2bdd8394, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5f9edf14, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@68746f22, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2f01783a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@68878f6d, org.springframework.test.context.event.EventPublishingTestExecutionListener@41488b16, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@a8ef162, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2eea88a1, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7ac296f6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7fd7a283, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@22f59fa, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@78fa769e]
+2025-03-19 22:58:34 [main] INFO  i.s.SimpleChatToolServerApplicationTests - Starting SimpleChatToolServerApplicationTests using Java 1.8.0_271 on WIN-20240913ICL with PID 12704 (started by Administrator in C:\Users\Administrator\Desktop\documents\SimpleChatToolServer\SimpleChatToolServer)
+2025-03-19 22:58:34 [main] INFO  i.s.SimpleChatToolServerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 22:58:35 [main] INFO  i.s.SimpleChatToolServerApplicationTests - Started SimpleChatToolServerApplicationTests in 0.625 seconds (JVM running for 1.477)
